@@ -1,0 +1,34 @@
+{
+  "name": "guestbook",
+  "version": "1.0.0",
+  "description": "node.js guestbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriansteger/guestbook.git"
+  },
+  "author": "Adrian Steger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriansteger/guestbook/issues"
+  },
+  "homepage": "https://github.com/adriansteger/guestbook#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
