@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(100, 100, 100);
+    font-family: "Helvetica", "Helvetica Neue", "Arial";
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+$main-color: hsla(0, 0%, 0%, 0.253);
+.entry{
+    background-color: $main-color;
+    border: 1px solid black;
+    padding: 5px;
+    h3 {
+        margin-top: 0px;
+    }
+}
+.new-entry {
+    background-color: $main-color;
+    border: 1px solid black;
+    padding: 5px;
+}

@@ -1,17 +1,26 @@
 body {
-    background-color: rgb(100, 100, 100);
-    font-family: "Helvetica", "Helvetica Neue", "Arial";
+  background-color: #646464;
+  font-family: "Helvetica", "Helvetica Neue", "Arial";
 }
-.entry{
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px;
+
+.wrapper {
+  width: 80%;
+  margin: auto;
 }
-.entry h3{
-    margin-top: 0px;
+
+.entry {
+  background-color: rgba(0, 0, 0, 0.253);
+  border: 1px solid black;
+  padding: 5px;
 }
+.entry h3 {
+  margin-top: 0px;
+}
+
 .new-entry {
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px;
+  background-color: rgba(0, 0, 0, 0.253);
+  border: 1px solid black;
+  padding: 5px;
 }
+
+/*# sourceMappingURL=app.css.map */
