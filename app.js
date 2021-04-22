@@ -21,6 +21,7 @@ fs.readFile("./data.json", "utf-8", (err, data) => {
 
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(express.static("./public"));
+    app.use("/css", express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 
     app.get("/index", (req, res) => {
         res.render("index", {
