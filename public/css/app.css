@@ -3,6 +3,9 @@ body {
   font-family: "Helvetica", "Helvetica Neue", "Arial";
   color: #e6e6e6;
 }
+body input, body textarea {
+  background-color: #e6e6e6;
+}
 
 .wrapper {
   width: 80%;

@@ -4,6 +4,9 @@ body {
     background-color: rgb(100, 100, 100);
     font-family: "Helvetica", "Helvetica Neue", "Arial";
     color: $text-color;
+    input, textarea {
+        background-color: $text-color;
+    }
 }
 .wrapper{
     width: 80%;
