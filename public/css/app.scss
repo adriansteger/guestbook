@@ -5,18 +5,23 @@ body {
 .wrapper{
     width: 80%;
     margin: auto;
+    margin-top: 3em;
 }
 $main-color: hsla(0, 0%, 0%, 0.253);
-.entry{
+$text-color: hsl(0, 0%, 90%);
+@mixin entryBackground() {
     background-color: $main-color;
     border: 1px solid black;
     padding: 5px;
+    color: $text-color;
+}
+
+.entry{
+    @include entryBackground();
     h3 {
         margin-top: 0px;
     }
 }
 .new-entry {
-    background-color: $main-color;
-    border: 1px solid black;
-    padding: 5px;
+    @include entryBackground();
 }
